@@ -9,7 +9,7 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -EditMode Windows
 
 
-/////nuevo
+/////nuevo///////
 
 (@(& 'C:/Users/Fabian Diaz/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\Fabian Diaz\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json' --print) -join "`n") | Invoke-Expression
 Import-Module Terminal-Icons 
